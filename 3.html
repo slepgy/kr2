@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bloom Joy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./stylesheet.css">
+</head>
+
+<body>
+     <a id="head">
+        <h1 align="center">HelpAnimal</h1>
+    </a>
+    <h2 align="center">Дом - это там, где ждут</h2>
+
+        <div class="navbar-panel">
+            <nav>
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./1.html" target="_self">
+                            <h3><b>Главная</b></h3>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#top">
+                            <h3>О нас</h3>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="./2.html" target="_self">
+                            <h3>Наши животные</h3>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./3.html" target="_self">
+                            <h3>Оформить заявку</h3>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="card-body">
+                <h5 class='card-title text-center' id='top_of _page'>Заполните заявку</h5>
+                <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+                    <input type="hidden" name="q" value="search">
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Имя</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput"
+                            placeholder="Example input placeholder" name="var_01" value="Напишите свое имя">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Фамилия</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2"
+                            placeholder="Another input placeholder" name="var_02" value="Напишите свою фамилию">
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">Кодовое слово</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">О себе</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="">
+                        </div>
+                       
+                        <div class="col-md-4">
+                            <label for="inputState" class="form-label">Город</label>
+                            <select id="inputState" class="form-select">
+                                <option selected>Выбор</option>
+                                <option>Москва</option>
+                                 <option>Санкт-Петербург</option>
+                                  <option>Нижний Новгород</option>
+                            </select>
+                        </div>
+                        <div></div>
+                        <div class="col-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+                                <label class="form-check-label" for="radioDefault1">
+                                    Нужна консультация?
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Отправить</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+</body>
+</html>
